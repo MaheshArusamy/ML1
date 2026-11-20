@@ -10,7 +10,7 @@ class EmployeeData(BaseModel):
 model = joblib.load("Model/employee_model.pkl")
 @app.get("/")
 def home():
-    return {"message": "Welcome to the Employee Performance Prediction API!"}
+    return {"message": " Employee Performance Prediction API!"}
 @app.post("/predict")
 def predict(Employee:EmployeeData   ):
     try:
