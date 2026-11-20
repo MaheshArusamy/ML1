@@ -1,0 +1,10 @@
+_pyache_/
+*._pyache_
+.git/
+.dvc/
+Dataset/
+Notebook/
+mlruns/
+*.dvc
+dvc.lock
+dvc.yaml

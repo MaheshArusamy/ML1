@@ -7,7 +7,7 @@ class EmployeeData(BaseModel):
     experience: float
     attendance: float
     performance: float
-model = joblib.load("C:\\ML1\\model\\employee_model.pkl")
+model = joblib.load("Model/employee_model.pkl")
 @app.get("/")
 def home():
     return {"message": "Welcome to the Employee Performance Prediction API!"}
